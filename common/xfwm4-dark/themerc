@@ -25,3 +25,5 @@ title_shadow_active=false
 
 show_frame_shadow=true
 show_popup_shadow=true
+
+show_app_icon=true
