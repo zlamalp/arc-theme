@@ -92,7 +92,7 @@ $darker_asset_suffix: if($darker=='true', '-dark', $asset_suffix);
   &:selected:hover {
     @extend %selected_items;
   }
-  &.dim-label { 
+  &.dim-label {
     color: transparentize($text_color, 0.45);
 
     &:selected, &:selected:focus {
@@ -174,7 +174,7 @@ GtkFlowBox .grid-child {
 
 .spinner {
   background-image: none;
-  background-color: blue;
+  background-color: orange;
   opacity: 0; // non spinning spinner makes no sense
   -gtk-icon-source: -gtk-icontheme('process-working-symbolic');
 
